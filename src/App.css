@@ -1,0 +1,160 @@
+.App {
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.month-toggle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.8em;
+  height: 3em;
+}
+
+.days-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #2d2d2c;
+  background-color: #2d2d2c;
+  padding: 0.8em 0.2em;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2d2d2c;
+  background-color: white;
+  border-radius: 0.2em;
+  padding: 0.2em 1em;
+  width: 1.5em;
+  height: fit-content;
+}
+
+.day h1 {
+  font-size: small;
+  font-weight: 500;
+  margin-top: 1.4em;
+  margin-bottom: -0.8em;
+}
+
+.day p {
+  font-weight: 600;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  background-color: #2d2d2c;
+  height: 2.2em;
+  width: fit-content;
+  padding: 0 0.8em;
+  border-radius: 0.2em;
+}
+
+.habit-header {
+  padding: 1em 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.habit-header h1 {
+  font-size: 1.5em;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2d2d2c;
+  background-color: #eeeeee;
+  border-radius: 0.2em;
+  padding: 0 1em;
+  padding-bottom: 0.6em;
+  font-size: small;
+  font-weight: 600;
+  width: 2.8em;
+  height: fit-content;
+}
+
+.progress h1 {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.habit-card {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 0.7em;
+  margin-bottom: 2em;
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divider {
+  height: 0.1em;
+  background-color: black;
+  border-radius: 2em;
+  margin: 0.7em 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  width: 100%;
+  margin: 0;
+}
+
+.current-points {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.8em;
+  background-color: #ffbc3a;
+  align-self: baseline;
+  margin-bottom: 0;
+}
+
+.current-points h3,
+.current-points p {
+  padding: 0 1em;
+  font-size: 1.3em;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.navbar img {
+  width: 2em;
+  height: 2em;
+}
+
+.page-bottom {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+}
