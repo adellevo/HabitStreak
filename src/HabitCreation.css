@@ -187,7 +187,6 @@ textarea {
 .frequency-label {
   font-size: 18px; /* Adjust the font size as needed */
   margin-bottom: 10px; /* Add space between the label and the rows */
-  font-weight: bold; /* Optional: Set font weight to bold */
 }
 
 .frequency-row {
@@ -208,4 +207,41 @@ textarea {
 .everyday-button {
   background-color: #FFBC3A; /* Set the background color for the "Every Day" button */
   color: #000; /* Set the text color back to black */
+}
+
+/* HabitTermSection.css */
+/* HabitCreation.css */
+.habit-term-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.habit-term-text {
+  margin-right: 10px;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.start-button {
+  padding: 8px 16px;
+  margin-right: 10px; /* Adjust as needed */
+  cursor: pointer;
+  width: 110px;
+  height: 50px;
+  /* Add additional styling as needed */
+}
+
+.end-button {
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 110px;
+  height: 50px;
+  margin-left: 220px; /* Adjust as needed */
+  /* Add additional styling as needed */
 }

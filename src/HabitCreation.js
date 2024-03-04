@@ -4,7 +4,8 @@ import "./HabitCreation.css";
 import NameSection from "./NameSection";
 import DescriptionSection from "./DescriptionSection";
 import CustomizeSection from "./CustomizeSection";
-import FrequencySection from "./FrequencySection"; // Import the new component
+import FrequencySection from "./FrequencySection";
+import HabitTermSection from "./HabitTermSection"; // Import the new component
 
 const HabitCreation = () => {
   return (
@@ -13,7 +14,8 @@ const HabitCreation = () => {
       <NameSection />
       <DescriptionSection />
       <CustomizeSection />
-      <FrequencySection /> 
+      <FrequencySection />
+      <HabitTermSection /> {/* Include the new HabitTerm component */}
       {/* Add other sections or components as needed */}
     </div>
   );
