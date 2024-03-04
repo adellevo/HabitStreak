@@ -5,7 +5,8 @@ import NameSection from "./NameSection";
 import DescriptionSection from "./DescriptionSection";
 import CustomizeSection from "./CustomizeSection";
 import FrequencySection from "./FrequencySection";
-import HabitTermSection from "./HabitTermSection"; // Import the new component
+// import HabitTermSection from "./HabitTermSection"; 
+import ReminderSection from "./ReminderSection";
 
 const HabitCreation = () => {
   return (
@@ -15,7 +16,8 @@ const HabitCreation = () => {
       <DescriptionSection />
       <CustomizeSection />
       <FrequencySection />
-      <HabitTermSection /> {/* Include the new HabitTerm component */}
+      {/* <HabitTermSection /> */}
+      <ReminderSection /> {/* Include the new ReminderSection */}
       {/* Add other sections or components as needed */}
     </div>
   );
