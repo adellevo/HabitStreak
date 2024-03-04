@@ -1,12 +1,14 @@
-// ColorSection.js
 import React from "react";
+import "./HabitCreation.css"; // Add the path to your ColorSection CSS file
 
 const ColorSection = () => {
   return (
     <div className="color-section">
-      <p>This is the Color Section</p>
-      <button>Click me</button>
-      {/* Add more content or components for the Color Section */}
+      <p className="color-label">Color:</p>
+      <div>
+        <button className="color-button">Black</button>
+        {/* Add more color buttons as needed */}
+      </div>
     </div>
   );
 };

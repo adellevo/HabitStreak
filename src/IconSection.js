@@ -6,7 +6,7 @@ const IconSection = () => {
   return (
     <div className="icon-section">
       <p>Icon</p>
-      <button className="icon-button">Button</button>
+      <button className="icon-button"></button>
       {/* Add content or components for the Icon Section */}
     </div>
   );

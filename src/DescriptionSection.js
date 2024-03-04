@@ -1,4 +1,3 @@
-// DescriptionSection.js
 import React from "react";
 
 const DescriptionSection = () => {
@@ -12,6 +11,7 @@ const DescriptionSection = () => {
         placeholder="Enter habit description"
         rows="4"
         className="textarea"
+        style={{ resize: "none" }}
       />
     </div>
   );

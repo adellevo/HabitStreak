@@ -33,19 +33,28 @@ textarea {
   padding: 8px;
 }
 
+.textarea {
+  resize: none; /* Add this property to prevent resizing */
+}
+
+.horizontal-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Occupy the full width of the parent */
+  margin-bottom: 10px; /* Add margin-bottom for spacing */
+}
+
+.horizontal-section > * {
+  margin-right: 10px; /* Adjust the padding as needed */
+}
+
 /* Add the following styles for the horizontal layout */
 .horizontal-section {
   display: flex;
   justify-content: space-between;
   width: 100%; /* Occupy the full width of the parent */
+  margin-bottom: 20px; /* Add margin-bottom for spacing */
 }
-
-/* Add padding between the two sections */
-.horizontal-section > * {
-  margin-right: 10px; /* Adjust the padding as needed */
-}
-
-/* ... (existing styles) */
 
 /* IconSection.css */
 .icon-section {
@@ -65,9 +74,11 @@ textarea {
   font-size: 16px;
   cursor: pointer; /* Add a pointer cursor on hover */
   outline: none; /* Remove button outline */
-  width: 55px; /* Adjust the width as needed */
-  height: 55px; /* Adjust the height as needed */
+  width: 60px;
+  height: 60px;
 }
+
+/* ... other CSS styles for IconSection ... */
 
 /* HabitTypeSection.css */
 .habit-type-section {
@@ -97,6 +108,8 @@ textarea {
   /* Add styles for the "Break" button if needed */
 }
 
+/* ... other CSS styles for HabitTypeSection ... */
+
 /* ColorSection.css */
 .color-section {
   display: flex;
@@ -120,8 +133,6 @@ textarea {
 }
 
 /* RewardsOptionsSection.css */
-
-/* RewardPointsSection.css */
 .reward-points-container {
   display: flex;
   align-items: center;
@@ -132,17 +143,18 @@ textarea {
 }
 
 .reward-points-input {
-  width: 50px; /* Adjust the width as needed */
+  width: 35px; /* Adjust the width as needed */
   height: 30px; /* Adjust the height as needed */
   /* border-radius: 5px; */
   border: 2px solid black;
   padding: 8px;
   font-size: 16px;
   text-align: center;
+  border-radius: 0%;
 }
 
 .reward-points-button {
-  width: 50px; /* Adjust the width as needed */
+  width: 35px; /* Adjust the width as needed */
   height: 50px; /* Adjust the height as needed */
   background-color: black;
   color: white;
@@ -163,4 +175,37 @@ textarea {
 .reward-points-button.plus {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+}
+
+/* FrequencySection.css */
+.frequency-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align elements to the left side */
+}
+
+.frequency-label {
+  font-size: 18px; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Add space between the label and the rows */
+  font-weight: bold; /* Optional: Set font weight to bold */
+}
+
+.frequency-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; /* Add space between rows */
+}
+
+.first-row-button,
+.second-row-button {
+  cursor: pointer; /* Set cursor to pointer on hover to indicate clickable */
+  border: none;
+  border-radius: 10px;
+  padding: 8px 16px; /* Adjust padding as needed */
+  margin-right: 10px; /* Add space between buttons */
+}
+
+.everyday-button {
+  background-color: #FFBC3A; /* Set the background color for the "Every Day" button */
+  color: #000; /* Set the text color back to black */
 }
