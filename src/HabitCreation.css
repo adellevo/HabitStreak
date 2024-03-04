@@ -1,0 +1,166 @@
+/* HabitCreation.css */
+.habit-creation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.habit-creation-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.name-section,
+.description-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+/* Add the following styles for the horizontal layout */
+.horizontal-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Occupy the full width of the parent */
+}
+
+/* Add padding between the two sections */
+.horizontal-section > * {
+  margin-right: 10px; /* Adjust the padding as needed */
+}
+
+/* ... (existing styles) */
+
+/* IconSection.css */
+.icon-section {
+  display: flex;
+  align-items: center;
+}
+
+.icon-section p {
+  margin-right: 10px;
+}
+
+.icon-button {
+  background-color: #f0f0f0;
+  border: none; /* Remove default button border */
+  border-radius: 8px; /* Add rounded corners */
+  padding: 10px 15px; /* Adjust padding as needed */
+  font-size: 16px;
+  cursor: pointer; /* Add a pointer cursor on hover */
+  outline: none; /* Remove button outline */
+  width: 55px; /* Adjust the width as needed */
+  height: 55px; /* Adjust the height as needed */
+}
+
+/* HabitTypeSection.css */
+.habit-type-section {
+  display: flex;
+  align-items: center;
+}
+
+.habit-type-section p {
+  margin-right: 10px;
+}
+
+.button-common {
+  margin-right: 10px;
+  width: 100px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add rounded edges */
+  cursor: pointer; /* Add pointer cursor */
+  outline: none; /* Remove button outline */
+}
+
+.build-button {
+  background-color: #FFBC3A;
+}
+
+.break-button {
+  /* Add styles for the "Break" button if needed */
+}
+
+/* ColorSection.css */
+.color-section {
+  display: flex;
+  align-items: center;
+}
+
+.color-section p {
+  margin-right: 10px;
+}
+
+.color-button {
+  background-color: #000000;
+  border: none; /* Remove default button border */
+  border-radius: 8px; /* Add rounded corners */
+  padding: 10px 15px; /* Adjust padding as needed */
+  font-size: 16px;
+  cursor: pointer; /* Add a pointer cursor on hover */
+  outline: none; /* Remove button outline */
+  width: 55px; /* Adjust the width as needed */
+  height: 55px; /* Adjust the height as needed */
+}
+
+/* RewardsOptionsSection.css */
+
+/* RewardPointsSection.css */
+.reward-points-container {
+  display: flex;
+  align-items: center;
+}
+
+.reward-points-label {
+  margin-right: 10px;
+}
+
+.reward-points-input {
+  width: 50px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  /* border-radius: 5px; */
+  border: 2px solid black;
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.reward-points-button {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Rounded corners for - button */
+.reward-points-button.minus {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+/* Rounded corners for + button */
+.reward-points-button.plus {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
