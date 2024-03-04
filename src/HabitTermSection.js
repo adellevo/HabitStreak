@@ -1,6 +1,6 @@
 // HabitTerm.js
 import React from "react";
-import "./HabitCreation.css"; // Connect to HabitTermSection.css
+import "./HabitTermSection.css"; // Connect to HabitTermSection.css
 
 const HabitTerm = () => {
   return (

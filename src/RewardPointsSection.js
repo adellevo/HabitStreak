@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./HabitCreation.css"; // Add the path to your main CSS file
+import "./RewardPointsSection.css"; // Add the path to your main CSS file
 
 const RewardPointsSection = () => {
   // State to keep track of the reward points

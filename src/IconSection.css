@@ -1,0 +1,24 @@
+/* IconSection.css */
+.icon-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-section p {
+    margin-right: 10px;
+  }
+  
+  .icon-button {
+    background-color: #f0f0f0;
+    border: none; /* Remove default button border */
+    border-radius: 8px; /* Add rounded corners */
+    padding: 10px 15px; /* Adjust padding as needed */
+    font-size: 16px;
+    cursor: pointer; /* Add a pointer cursor on hover */
+    outline: none; /* Remove button outline */
+    width: 60px;
+    height: 60px;
+  }
+  
+  /* ... other CSS styles for IconSection ... */
+  

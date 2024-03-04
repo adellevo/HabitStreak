@@ -1,6 +1,6 @@
 // FrequencySection.js
 import React from "react";
-import "./HabitCreation.css"; // Add the path to your main CSS file
+import "./FrequencySection.css"; // Add the path to your main CSS file
 
 const FrequencySection = () => {
   return (

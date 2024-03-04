@@ -1,5 +1,5 @@
 import React from "react";
-import "./HabitCreation.css"; // Add the path to your HabitTypeSection CSS file
+import "./HabitTypeSection.css"; // Add the path to your HabitTypeSection CSS file
 
 const HabitTypeSection = () => {
   return (

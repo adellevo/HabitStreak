@@ -1,6 +1,6 @@
 // IconSection.js
 import React from "react";
-import "./HabitCreation"; // Import your updated CSS file
+import "./IconSection.css"; // Import your updated CSS file
 
 const IconSection = () => {
   return (

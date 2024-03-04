@@ -1,5 +1,5 @@
 import React from "react";
-import "./HabitCreation.css"; // Add the path to your ColorSection CSS file
+import "./ColorSection.css"; // Add the path to your ColorSection CSS file
 
 const ColorSection = () => {
   return (

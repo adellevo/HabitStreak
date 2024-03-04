@@ -1,6 +1,6 @@
 // ReminderSection.js
 import React from "react";
-import "./HabitCreation.css"; 
+import "./ReminderSection.css"; 
 
 const ReminderSection = () => {
   return (
