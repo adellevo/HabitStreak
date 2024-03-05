@@ -2,6 +2,7 @@
 .habit-type-section {
     display: flex;
     align-items: center;
+    margin-left: 10px;
   }
   
   .habit-type-section p {

@@ -2,14 +2,14 @@
 .habit-creation-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  padding: 20px; /* Add padding for better spacing */
+  align-items: flex-start;
+  height: 90vh;
+  padding: 20px;
 }
 
 .habit-creation-title {
-  text-align: center;
+  text-align: center; 
+  width: 100%; 
   margin-bottom: 20px;
 }
 
@@ -19,7 +19,8 @@
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
-  width: 100%;
+  width: 95%;
+  margin-right: 10px;
 }
 
 label {
