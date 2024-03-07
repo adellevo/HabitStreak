@@ -1,0 +1,46 @@
+/* OverlaySection.css */
+.overlay-section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overlay-link {
+    text-decoration: none; /* Remove default underline for links */
+  }
+  
+  .overlay-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .overlay-button.overlay-button-confirm {
+    background-color: #000000;
+    color: #ffffff;
+    width: 220px;
+    height: 70px;
+    margin-right: 25px; /* Adjust the margin between buttons */
+  }
+  
+  .overlay-button.overlay-button-cancel {
+    background-color: #f0f0f0;
+    color: #000000;
+    width: 220px;
+    height: 70px;
+    margin-right: 20px;
+  }
+  
+  .overlay-button-confirm,
+  .overlay-button-cancel {
+    font-size: 20px;
+  }
+  

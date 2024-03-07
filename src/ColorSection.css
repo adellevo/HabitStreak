@@ -1,0 +1,24 @@
+/* ColorSection.css */
+.color-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .color-section p {
+    margin-right: 10px;
+  }
+  
+  .color-button {
+    background-color: #000000;
+    border: none; /* Remove default button border */
+    border-radius: 8px; /* Add rounded corners */
+    padding: 10px 15px; /* Adjust padding as needed */
+    font-size: 16px;
+    cursor: pointer; /* Add a pointer cursor on hover */
+    outline: none; /* Remove button outline */
+    width: 55px; /* Adjust the width as needed */
+    height: 55px; /* Adjust the height as needed */
+  }
+  
+  /* ... other CSS styles for ColorSection ... */
+  

@@ -1,0 +1,47 @@
+/* RewardPointsSection.css */
+.reward-points-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .reward-points-label {
+    margin-right: 10px;
+  }
+  
+  .reward-points-input {
+    width: 35px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    /* border-radius: 5px; */
+    border: 2px solid black;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 0%;
+  }
+  
+  .reward-points-button {
+    width: 35px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Rounded corners for - button */
+  .reward-points-button.minus {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  /* Rounded corners for + button */
+  .reward-points-button.plus {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  /* ... other CSS styles for RewardsOptionsSection ... */
+  

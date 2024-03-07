@@ -1,7 +1,8 @@
 import "./App.css";
 import { IoMdAdd } from "react-icons/io";
-import drawIcon from "./images/draw-icon.jpg";
-import meditateIcon from "./images/meditate-icon.jpg";
+import { Link } from "react-router-dom";
+import drawIcon from "./images/draw-icon.jpg"; // Import drawIcon
+import meditateIcon from "./images/meditate-icon.jpg"; // Import meditateIcon
 import HabitCard from "./HabitCard";
 import Button from "./Button";
 
@@ -9,7 +10,9 @@ const HabitSection = () => (
   <div>
     <div className="habit-header">
       <h1>My Habits</h1>
-      <Button text="Add" icon={<IoMdAdd color="white" />} />
+      <Link to="/habitcreation">
+        <Button text="Add" icon={<IoMdAdd color="white" />} />
+      </Link>
     </div>
     <HabitCard
       habitName="Draw for 30 minutes"

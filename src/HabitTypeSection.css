@@ -1,0 +1,31 @@
+/* HabitTypeSection.css */
+.habit-type-section {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .habit-type-section p {
+    margin-right: 10px;
+  }
+  
+  .button-common {
+    margin-right: 10px;
+    width: 100px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded edges */
+    cursor: pointer; /* Add pointer cursor */
+    outline: none; /* Remove button outline */
+  }
+  
+  .build-button {
+    background-color: #FFBC3A;
+  }
+  
+  .break-button {
+    /* Add styles for the "Break" button if needed */
+  }
+  
+  /* ... other CSS styles for HabitTypeSection ... */
+  
