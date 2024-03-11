@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./RewardPointsSection.css"; // Add the path to your main CSS file
+import "./HabitCreation.css";
 
 const RewardPointsSection = () => {
   // State to keep track of the reward points
@@ -19,12 +20,9 @@ const RewardPointsSection = () => {
 
   return (
     <div className="reward-points-container">
-      <p className="reward-points-label">Rewards Point(s)</p>
+      <p className="reward-points-label section-header-title">Rewards Point(s)</p>
       <div>
-        <button
-          onClick={decrementPoints}
-          className="reward-points-button minus"
-        >
+        <button onClick={decrementPoints} className="reward-points-button minus">
           -
         </button>
         <input
@@ -33,10 +31,7 @@ const RewardPointsSection = () => {
           onChange={(e) => setRewardPoints(parseInt(e.target.value) || 1)}
           className="reward-points-input"
         />
-        <button
-          onClick={incrementPoints}
-          className="reward-points-button plus"
-        >
+        <button onClick={incrementPoints} className="reward-points-button plus">
           +
         </button>
       </div>

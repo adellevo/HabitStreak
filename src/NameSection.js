@@ -3,9 +3,9 @@ import React from "react";
 
 const NameSection = () => {
   return (
-    <div className="name-section">
-      <label htmlFor="habitName" className="label">
-        Name:
+    <div className="name-section" style={{ marginBottom: "1.5em" }}>
+      <label htmlFor="habitName" className="label section-header-title">
+        Name
       </label>
       <input
         type="text"

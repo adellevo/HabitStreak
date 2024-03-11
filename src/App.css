@@ -3,6 +3,11 @@
   background-color: #f0f0f0;
 }
 
+a,
+p {
+  text-decoration: none !important;
+}
+
 .month-toggle {
   display: flex;
   flex-direction: row;
